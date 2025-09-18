@@ -1,0 +1,57 @@
+$ USE_CHROMIUM128=1 python3 -m unittest -v test_browser_correctly_navigates.py
+⚡ Using Chrome version: 128.0.6613.119
+test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation) ... Test NO 1 OK.
+Test NO 2 OK.
+Test NO 3 OK.
+Test NO 4 OK.
+Test NO 5 OK.
+Test NO 6 OK.
+Test NO 7 OK.
+Test NO 8 OK.
+Test NO 9 OK.
+Test NO 10 OK.
+Test NO 11 OK.
+Test NO 12 OK.
+Test NO 13 OK.
+Test NO 14 OK.
+Test NO 15 OK.
+Test NO 16 OK.
+Test NO 17 OK.
+Test NO 18 OK.
+Test NO 19 OK.
+Test NO 20 OK.
+Test NO 21 OK.
+Test NO 22 OK.
+Test NO 23 OK.
+Test NO 24 OK.
+Test NO 25 OK.
+Test NO 26 OK.
+Test NO 27 OK.
+Test NO 28 OK.
+Test NO 29 OK.
+Test NO 30 OK.
+Test NO 31 OK.
+Test NO 32 OK.
+Test NO 33 OK.
+Test NO 34 OK.
+Test NO 35 OK.
+Test NO 36 OK.
+Test NO 37 OK.
+Test NO 38 OK.
+Test NO 39 OK.
+Test NO 40 OK.
+Test NO 41 OK.
+Test NO 42 OK.
+Test NO 43 OK.
+Test NO 44 OK.
+Test NO 45 OK.
+Test NO 46 OK.
+Test NO 47 OK.
+Test NO 48 OK.
+Test NO 49 OK.
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 96.122s
+
+OK

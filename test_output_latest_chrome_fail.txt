@@ -1,0 +1,305 @@
+$ python3 -m unittest -v test_browser_correctly_navigates.py
+Unsupported architecture:
+⚡ Using Chrome version: 140.0.7339.185
+test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) ...
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=1) ... FAIL
+Test NO 2 OK.
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=3) ... FAIL
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=4) ... FAIL
+Test NO 5 OK.
+Test NO 6 OK.
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=7) ... FAIL
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=8) ... FAIL
+Test NO 9 OK.
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=10) ... FAIL
+Test NO 11 OK.
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=12) ... FAIL
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=13) ... FAIL
+Test NO 14 OK.
+Test NO 15 OK.
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=16) ... FAIL
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=17) ... FAIL
+Test NO 18 OK.
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=19) ... FAIL
+Test NO 20 OK.
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=21) ... FAIL
+Test NO 22 OK.
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=23) ... FAIL
+Test NO 24 OK.
+Test NO 25 OK.
+Test NO 26 OK.
+Test NO 27 OK.
+Test NO 28 OK.
+Test NO 29 OK.
+Test NO 30 OK.
+Test NO 31 OK.
+Test NO 32 OK.
+Test NO 33 OK.
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=34) ... FAIL
+Test NO 35 OK.
+Test NO 36 OK.
+Test NO 37 OK.
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=38) ... FAIL
+Test NO 39 OK.
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=40) ... FAIL
+Test NO 41 OK.
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=42) ... FAIL
+Test NO 43 OK.
+Test NO 44 OK.
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=45) ... FAIL
+  test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=46) ... FAIL
+Test NO 47 OK.
+Test NO 48 OK.
+Test NO 49 OK.
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=8)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=10)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=12)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=13)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=16)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=17)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=19)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=21)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=23)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=34)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=38)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=40)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=42)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=45)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+======================================================================
+FAIL: test_browser_navigation_race (test_browser_correctly_navigates.TestNavigation.test_browser_navigation_race) (step='consumer_register_delete_and_navigate_to_other_url', iteration=46)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/thurych/git/chromedriver-bug/test_browser_correctly_navigates.py", line 90, in test_browser_navigation_race
+    self.assertEqual(current_url, expected_url)
+AssertionError: 'https://consumer.regtest.nic.cz/consumer/oic/list-clients/' != 'https://consumer.regtest.nic.cz/consumer/saml/'
+- https://consumer.regtest.nic.cz/consumer/oic/list-clients/
+?                                          ^^^^ -----------
++ https://consumer.regtest.nic.cz/consumer/saml/
+?                                          ^^^
+
+
+----------------------------------------------------------------------
+Ran 1 test in 175.669s
+
+FAILED (failures=19)
